@@ -1,14 +1,14 @@
 
 Steps i have used -
-Create docker container- i have used nvidia’s base image for container so that i can utilize gpus also
-Creating fast API structure- 
+1. Create docker container- i have used nvidia’s base image for container so that i can utilize gpus also
+2. Creating fast API structure- 
 	Assignment → main.py, client.py
 For that i have used one main file that contains endpoints and virtual environment 
 
-      3. I have created one client file for testing urls or can be tested using postman.Here is url -
+3. I have created one client file for testing urls or can be tested using postman.Here is url -
 For load all the data https://search-healthos-es67-nocrz73cfktuhhkgnaz72td3cq.us-east-1.es.amazonaws.com/products104/_search 
 
-	For localhost access -
+For localhost access -
 'http://127.0.0.1:8000/get_matched_products'
 
 Can access url using postman also for testing url 
